@@ -50,4 +50,8 @@ describe('Utility random', () => {
     TMany(array, 4, () => random.string(4, array));
   });
 
+  it('repeats if only one candidate available', () => {
+    expect(random.elements(4, ['a'])).to.eql(['a', 'a', 'a', 'a']);
+  });
+
 });
