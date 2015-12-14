@@ -1,0 +1,37 @@
+{
+  "name": "netease-musicbox-node",
+  "version": "0.0.1",
+  "description": "NetEase Musicbox utilities.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "istanbul cover _mocha 'test/**/*-spec.js' -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arrowrowe/netease-musicbox-node.git"
+  },
+  "author": "arrowrowe <arrowrowe@gmail.com> (https://github.com/arrowrowe)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arrowrowe/netease-musicbox-node/issues"
+  },
+  "homepage": "https://github.com/arrowrowe/netease-musicbox-node",
+  "keywords": [
+    "NetEase",
+    "music"
+  ],
+  "devDependencies": {
+    "chai": "3.4.1",
+    "eslint": "1.10.3",
+    "istanbul": "0.4.1",
+    "mocha": "2.3.4"
+  },
+  "dependencies": {
+    "big-integer": "1.6.8",
+    "chalk": "1.1.1",
+    "crypto": "0.0.3",
+    "log4js": "0.6.29",
+    "superagent": "1.5.0"
+  }
+}
