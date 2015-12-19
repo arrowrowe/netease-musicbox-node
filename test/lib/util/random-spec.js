@@ -35,6 +35,14 @@ describe('Utility random', () => {
     TOne(range(3), () => random.index(3));
   });
 
+  it('generates an integer of [lower, upper)', () => {
+    TOne([3, 4, 5, 6], () => random.integer(3, 7));
+  });
+
+  it('generates a boolean', () => {
+    TOne([true, false], () => random.bool());
+  });
+
   it('generates an element of a specified array', () => {
     var array = ['a', 'b', 'c'];
     TOne(array, () => random.element(array));

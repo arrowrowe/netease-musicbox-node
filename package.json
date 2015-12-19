@@ -24,9 +24,11 @@
   "devDependencies": {
     "chai": "3.4.1",
     "eslint": "1.10.3",
+    "faker": "3.0.1",
     "ghooks": "1.0.1",
     "istanbul": "0.4.1",
-    "mocha": "2.3.4"
+    "mocha": "2.3.4",
+    "sinon": "1.17.2"
   },
   "dependencies": {
     "big-integer": "1.6.8",
