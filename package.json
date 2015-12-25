@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
     "test": "istanbul cover _mocha 'test/**/*-spec.js' -- -R spec"
   },
   "repository": {

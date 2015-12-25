@@ -15,5 +15,6 @@ module.exports = {
   email: Faker.internet.email,
   avatarUrl: Faker.image.avatar,
   backgroundUrl: () => Faker.image.nature(random.integer(300, 1000), random.integer(300, 1000)),
+  musicUrl: (trackName) => 'http://dict.youdao.com/dictvoice?audio=' + encodeURI(trackName),
   timeInteger: () => random.integer(1400000000, 1400000000000)
 };

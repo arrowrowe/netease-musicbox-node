@@ -1,6 +1,7 @@
 var fake = Object.create(null);
 require('./user/login')(fake);
 require('./user/playlist')(fake);
+require('./playlist/detail')(fake);
 
 module.exports = {
   'default': {
@@ -17,5 +18,8 @@ module.exports = {
   },
   'user/playlist': {
     'normal': fake.playlist
+  },
+  'playlist/detail': {
+    'normal': fake.playlistDetail
   }
 };
